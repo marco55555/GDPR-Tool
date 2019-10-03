@@ -447,7 +447,7 @@ advanced_preconditions:
 auto_generated: false
 description: Procedura di analisi dell'adeguamento al GDPR e risultati di verifica
 entity: document
-hash: kc8f2e2f4a932
+hash: k9748cd38d74e
 html: "# MEMORANDUM\n\n# PER L'ADEGUAMENTO AL\n\n# REGOLAMENTO GENERALE SULLA PROTEZIONE\
   \ DEI DATI\n\nIl Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio\
   \ del 27 aprile 2016 relativo alla protezione delle persone fisiche con riguardo\
@@ -827,12 +827,12 @@ html: "# MEMORANDUM\n\n# PER L'ADEGUAMENTO AL\n\n# REGOLAMENTO GENERALE SULLA PR
   \n#### Documenti da redigere\n\n<u>Modello gestionale</u> (vedi Allegato C - \"\
   *Checklist del modello gestionale*\").\n\n#{k3e577d4d5327}#{kab0b883292b2}#{k19f0603f4d67}\n\
   \n<hr />\n### <u>Allegato A</u>\n\n## Registro delle attivit\xE0 di trattamento\n\
-  #{k8983241b0660}#{k7dd3a50ab446}#{kac92ac8c0cac}\n\n\n<hr />\n### <u>Allegato B</u>\n\
+  #{kd45f3d3fccf3}#{k7dd3a50ab446}#{kac92ac8c0cac}\n\n\n<hr />\n### <u>Allegato B</u>\n\
   \n## Informative sul trattamento dei dati personali\n#{k968102e71496}\n<hr />\n\
   #{k6cb711e29be9}\n<hr />\n#{k29c182105119}\n<hr />\n#{kef6067c9b329}\n<hr />\n#{k690d0100ab29}\n\
   <hr />\n#{k91d1af938167}\n<hr />\n#{kcc33256b8841}\n<hr />\n#{k6f94bf5e0cb0}\n<hr\
-  \ />\n#{k21cea1986375}\n<hr />\n### <u>Allegato C</u>\n\n#{k406f63174b14}\n\n<hr\
-  \ />\n### <u>Checklist di verifica</u>\n\n#{k37bff0aa9bd0}\n\n<hr />\n```\nGDPR\
+  \ />\n#{k21cea1986375}\n<hr />\n### <u>Allegato C</u>\n\n#{k196d0368f4aa}\n\n<hr\
+  \ />\n### <u>Checklist di verifica</u>\n\n#{k440166a11aed}\n\n<hr />\n```\nGDPR\
   \ Tool - Una base di conoscenza per supportare l'adeguamento al GDPR\nCopyright\
   \ (C) 2019 - Marco Ciurcina \n\nGDPR Tool is free software: you can redistribute\
   \ it and/or modify\nit under the terms of the GNU Affero General Public License\
@@ -1110,6 +1110,24 @@ outputs:
       * redigere le istruzioni agli incaricati del trattamento.'
     public: true
     title: "Dipendenti Si Attivit\xE0"
+    visible: true
+  k196d0368f4aa:
+    _precondition: kb7559f408520
+    entity: output
+    hash: k196d0368f4aa
+    html: "## Modello gestionale\n\nIl modello gestionale delle procedure da adottare\
+      \ per conseguire l'adeguamento al Regolamento deve essere:\n\n* redatto attivando\
+      \ competenze gestionali-organizzative,\n* #{k3c7603ff8dbf}#{k9f001a9acdc8}#{kabf72ac0ada7},\n\
+      * eseguito con competenze legali e tecnico-informatiche,\n* idoneo a realizzare\
+      \ le attivit\xE0 previste nella \"*Checklist di sintesi*\".\n\nPer ciascuna\
+      \ delle misure indicate nella \"*Checklist di sintesi*\" il modello gestionale\
+      \ potrebbe per esempio indicare:\n\n* la persona incaricata,\n* le modalit\xE0\
+      \ di esecuzione dell'incarico, compresa la verifica periodica per valutarne\
+      \ l'aggiornamento,\n* le risorse a disposizione dell'incaricato,\n* la persona\
+      \ alla quale l'incaricato deve relazionare,\n* le modalit\xE0 di relazione dell'incaricato.\n\
+      \n#{k6d0ed36bd919}\n\n<hr />"
+    public: true
+    title: Modello Gestionale
     visible: true
   k197f775e0d57:
     _precondition: kf081c2798b07
@@ -1393,26 +1411,6 @@ outputs:
     public: true
     title: Informativa Utenti Internet Cookie
     visible: true
-  k37bff0aa9bd0:
-    _precondition: kb7559f408520
-    entity: output
-    hash: k37bff0aa9bd0
-    html: "**Ulteriori documenti da fare**:\n* <span style=\"background:red\">Analisi\
-      \ di bilanciamento (art. 6(1) lett. (f) del Regolamento)\n* <span style=\"background:red\"\
-      >Procedure d\u2019informativa e/o acquisizione del consenso\n\n**Ulteriori documenti\
-      \ da valutare**:\n* <span style=\"background:red\">Banner cookie\n* <span style=\"\
-      background:red\">Delibera con deleghe gestionali\n* <span style=\"background:red\"\
-      >Lettera d\u2019incarico al designato (art. 2-quaterdecies del D. Lgs. 196/2003)\n\
-      \n**Moduli di mappatura**:\n* <span style=\"background:red\">inventario dispositivi\n\
-      * <span style=\"background:red\">inventario sistemi informativi\n* <span style=\"\
-      background:red\">inventario SaaS\n* <span style=\"background:red\">informazioni\
-      \ integrative per informative\n\n**Moduli di analisi**:\n* <span style=\"background:red\"\
-      >analisi dei trattamenti\n* <span style=\"background:red\">analisi del rischio\
-      \ ex artt. 25 e 32\n* <span style=\"background:red\">analisi del trasferimento\
-      \ all'estero \n* <span style=\"background:red\">analisi contratti titolari responsabili\n"
-    public: true
-    title: Checklist
-    visible: true
   k385c73a1568d:
     _precondition: kf7914017bc96
     entity: output
@@ -1477,23 +1475,21 @@ outputs:
     public: true
     title: Registro Forse Elenco
     visible: true
-  k406f63174b14:
+  k440166a11aed:
     _precondition: kb7559f408520
     entity: output
-    hash: k406f63174b14
-    html: "## Modello gestionale\n\nIl modello gestionale delle procedure da adottare\
-      \ per conseguire l'adeguamento al Regolamento deve essere:\n* redatto attivando\
-      \ competenze gestionali-organizzative,\n* #{k3c7603ff8dbf}#{k9f001a9acdc8}#{kabf72ac0ada7},\n\
-      * eseguito con competenze legali e tecnico-informatiche,\n* idoneo a realizzare\
-      \ le attivit\xE0 previste nella \"*Checklist di sintesi*\".\n\nPer ciascuna\
-      \ delle misure indicate nella \"*Checklist di sintesi*\" il modello gestionale\
-      \ potrebbe per esempio indicare:\n* la persona incaricata,\n* le modalit\xE0\
-      \ di esecuzione dell'incarico, compresa la verifica periodica per valutarne\
-      \ l'aggiornamento,\n* le risorse a disposizione dell'incaricato,\n* la persona\
-      \ alla quale l'incaricato deve relazionare,\n* le modalit\xE0 di relazione dell'incaricato.\n\
-      \n#{k6d0ed36bd919}\n\n<hr />"
+    hash: k440166a11aed
+    html: "**Ulteriori documenti da fare**:\n* Analisi di bilanciamento (art. 6(1)\
+      \ lett. (f) del Regolamento)\n* Procedure d\u2019informativa e/o acquisizione\
+      \ del consenso\n\n**Ulteriori documenti da valutare**:\n* Banner cookie\n* Delibera\
+      \ con deleghe gestionali\n* Lettera d\u2019incarico al designato (art. 2-quaterdecies\
+      \ del D. Lgs. 196/2003)\n\n**Moduli di mappatura**:\n* inventario dispositivi\n\
+      * inventario sistemi informativi\n* inventario SaaS\n* informazioni integrative\
+      \ per informative\n\n**Moduli di analisi**:\n* analisi dei trattamenti\n* analisi\
+      \ del rischio ex artt. 25 e 32\n* analisi del trasferimento all'estero \n* analisi\
+      \ contratti titolari responsabili\n"
     public: true
-    title: Modello Gestionale
+    title: Checklist
     visible: true
   k4611452530c5:
     _precondition: kf30cf1b26cce
@@ -2211,101 +2207,6 @@ outputs:
       \ dei dati all'estero, se e quando necessario."
     public: true
     title: "Estero Forse Attivit\xE0"
-    visible: true
-  k8983241b0660:
-    _precondition: k15489546ee68
-    entity: output
-    hash: k8983241b0660
-    html: "## Registro dei Trattamenti (art. 30 RGPD)\n### #{k5237363a27be}#{k0c94ff62a2a2}\n\
-      \nIndirizzo: #{kaa5b845f0b57}#{k0893ae4d244d}\n\nEmail: #{ka53d771f4062}#{k9d1d96380b58}\n\
-      \nRappresentante: #{k8ca14a6f3977}#{kf44597633912}#{kc3b09e6de43c}\n\nResponsabile\
-      \ della protezione dei dati: #{k228e29b65998}#{k4cc4f1a8db88}#{k7741b7172066}\n\
-      \n<br>\n#### parte A - Trattamenti in qualit\xE0 di Titolare del Trattamento\n\
-      | N\xB0 | Finalit\xE0 del trattamento (1.b) | Categorie di interessati (1.c)\
-      \ | Categorie di dati personali (1.c) | Categorie di destinatari (1.d) | Paesi\
-      \ terzi o Organizzazioni Internazionali (1.d) | Documentazione delle garanzie\
-      \ adeguate (1.e) | Termini ultimi previsti per la cancellazione (1.f) | Misure\
-      \ di sicurezza *ex* art. 32.1 (1.g) |\n| -------- | ----------------- |--------\
-      \ | ----------- | ------------- | ------------ | --------- | -------- | ------------\
-      \ |\n| 1 | a. gestire la fornitura e i rapporti, b. proteggere il funzionamento\
-      \ tecnico del nostro sistema informatico, c. adempiere ad obblighi di legge\
-      \ e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa l\u2019\
-      autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma aggregata\
-      \ ed anonima, e. informare sui nostri servizi e sulle novit\xE0 disponibili.|\
-      \ Clienti (comprese le persone fisiche che agiscono per loro conto) | a. dati\
-      \ identificativi e di contatto, b. dati sulle forniture realizzate, c. dati\
-      \ sulle tipologie di attivit\xE0 svolte dai clienti, d. dati bancari. | [<span\
-      \ style=\"background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ | n/a | [<span style=\"background:lightgreen\">completare</span>] |\n| 2 |\
-      \ a. offrire servizi, b. adempiere ad obblighi di legge e/o ottemperare ad ordini\
-      \ provenienti da pubbliche autorit\xE0, inclusa l\u2019autorit\xE0 giudiziaria,\
-      \ c. elaborare analisi statistiche in forma aggregata ed anonima. | Potenziali\
-      \ clienti (comprese le persone fisiche che agiscono per loro conto). | a. dati\
-      \ identificativi e di contatto, b. dati sulle tipologie di attivit\xE0 svolte\
-      \ dai potenziali clienti. | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
-      background:yellow\">n/a o completare</span>] | n/a | [<span style=\"background:lightgreen\"\
-      >completare</span>] |\n| 3 | a. gestire il rapporto di lavoro, b. proteggere\
-      \ il funzionamento tecnico del nostro sistema informatico, c. adempiere ad obblighi\
-      \ di legge e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa\
-      \ l\u2019autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma\
-      \ aggregata ed anonima. | Dipendenti. | a. dati identificativi e di contatto,\
-      \ b. dati relativi all\u2019esecuzione del rapporto di lavoro (compresi i dati\
-      \ relativi allo stato di salute e l\u2019affiliazione sindacale), c. dati bancari.\
-      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
-      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | n/a | [<span style=\"background:lightgreen\">completare</span>]\
-      \ |\n| 4 | a. valutare la conclusione di un rapporto di lavoro, b. proteggere\
-      \ il funzionamento tecnico del nostro sistema informatico, c. adempiere ad obblighi\
-      \ di legge e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa\
-      \ l\u2019autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma\
-      \ aggregata ed anonima. | Potenziali dipendenti. | a. dati identificativi e\
-      \ di contatto, b. curriculum vitae | [<span style=\"background:yellow\">n/a\
-      \ o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ | [<span style=\"background:yellow\">n/a o completare</span>] | n/a | [<span\
-      \ style=\"background:lightgreen\">completare</span>] |\n| 5 | a. gestire la\
-      \ fornitura e i rapporti, b. proteggere il funzionamento tecnico del nostro\
-      \ sistema informatico, c. adempiere ad obblighi di legge e/o ottemperare ad\
-      \ ordini provenienti da pubbliche autorit\xE0, inclusa l\u2019autorit\xE0 giudiziaria,\
-      \ d. elaborare analisi statistiche in forma aggregata ed anonima. | Fornitori\
-      \ (compresi i dati delle persone fisiche che agiscono per loro conto). | a.\
-      \ dati identificativi e di contatto, b. dati sulle forniture realizzate, c.\
-      \ dati sulle tipologie di attivit\xE0 svolte dai fornitori, d. dati bancari.\
-      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
-      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | n/a | [<span style=\"background:lightgreen\">completare</span>]\
-      \ |\n| 6 | a. valutare se richiedere una fornitura, b. proteggere il funzionamento\
-      \ tecnico del nostro sistema informatico, c. adempiere ad obblighi di legge\
-      \ e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa l\u2019\
-      autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma aggregata\
-      \ ed anonima. | Potenziali fornitori (compresi i dati delle persone fisiche\
-      \ che agiscono per loro conto). | a. dati identificativi e di contatto, b. dati\
-      \ sulle tipologie di attivit\xE0 svolte dai potenziali fornitori. | [<span style=\"\
-      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ | n/a | [<span style=\"background:lightgreen\">completare</span>] |\n| 7 |\
-      \ #{k717dd16386cc}#{k6651eb0541c2}#{k199861bc076d}#{ka7fd4fde7ba3}\n\n<br>\n\
-      #### Parte B - Trattamenti in qualit\xE0 di Contitolare del Trattamento\n| N\xB0\
-      \ di Parte A cui si riferisce | Nome del Contitolare del Trattamento | Dati\
-      \ di contatto del Contitolare |\n| -------- | -------- | -------- |\n| [<span\
-      \ style=\"background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ |\n\n<br>\n#### Parte C - Trattamenti in qualit\xE0 di Responsabile del Trattamento\n\
-      | N\xB0 | Nome e i dati contatto del Titolare (2.a.2) | Nome e dati contatto\
-      \ del Rappresentante *ex* art. 27 del Titolare del Trattamento (2.a.3) | Nome\
-      \ e dati contatto del RPD ex art. 37 del Titolare (2.a.4) | Categorie di trattamenti\
-      \ effettuati (2.b) | Paese terzo e/o Organizzazione Internazionale ed eventuali\
-      \ garanzie adeguate (2.c) | Misure di sicurezza *ex* art. 32.1 (2.d) |\n| --------\
-      \ | -------- | -------- | -------- | -------- | -------- | ---------- |\n| [<span\
-      \ style=\"background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
-      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
-      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
-      \ | \n"
-    public: true
-    title: Registro Si Allegato
     visible: true
   k89a93314673e:
     _precondition: kd4456292f29e
@@ -3071,6 +2972,101 @@ outputs:
     html: X
     public: true
     title: PIA Forse Elenco
+    visible: true
+  kd45f3d3fccf3:
+    _precondition: k15489546ee68
+    entity: output
+    hash: kd45f3d3fccf3
+    html: "## Registro dei Trattamenti (art. 30 RGPD)\n### #{k5237363a27be}#{k0c94ff62a2a2}\n\
+      \nIndirizzo: #{kaa5b845f0b57}#{k0893ae4d244d}\n\nEmail: #{ka53d771f4062}#{k9d1d96380b58}\n\
+      \nRappresentante: #{k8ca14a6f3977}#{kf44597633912}#{kc3b09e6de43c}\n\nResponsabile\
+      \ della protezione dei dati: #{k228e29b65998}#{k4cc4f1a8db88}#{k7741b7172066}\n\
+      \n\n#### parte A - Trattamenti in qualit\xE0 di Titolare del Trattamento\n\n\
+      | N\xB0 | Finalit\xE0 del trattamento (1.b) | Categorie di interessati (1.c)\
+      \ | Categorie di dati personali (1.c) | Categorie di destinatari (1.d) | Paesi\
+      \ terzi o Organizzazioni Internazionali (1.d) | Documentazione delle garanzie\
+      \ adeguate (1.e) | Termini ultimi previsti per la cancellazione (1.f) | Misure\
+      \ di sicurezza *ex* art. 32.1 (1.g) |\n| -------- | ----------------- |--------\
+      \ | ----------- | ------------- | ------------ | --------- | -------- | ------------\
+      \ |\n| 1 | a. gestire la fornitura e i rapporti, b. proteggere il funzionamento\
+      \ tecnico del nostro sistema informatico, c. adempiere ad obblighi di legge\
+      \ e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa l\u2019\
+      autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma aggregata\
+      \ ed anonima, e. informare sui nostri servizi e sulle novit\xE0 disponibili.|\
+      \ Clienti (comprese le persone fisiche che agiscono per loro conto) | a. dati\
+      \ identificativi e di contatto, b. dati sulle forniture realizzate, c. dati\
+      \ sulle tipologie di attivit\xE0 svolte dai clienti, d. dati bancari. | [<span\
+      \ style=\"background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ | n/a | [<span style=\"background:lightgreen\">completare</span>] |\n| 2 |\
+      \ a. offrire servizi, b. adempiere ad obblighi di legge e/o ottemperare ad ordini\
+      \ provenienti da pubbliche autorit\xE0, inclusa l\u2019autorit\xE0 giudiziaria,\
+      \ c. elaborare analisi statistiche in forma aggregata ed anonima. | Potenziali\
+      \ clienti (comprese le persone fisiche che agiscono per loro conto). | a. dati\
+      \ identificativi e di contatto, b. dati sulle tipologie di attivit\xE0 svolte\
+      \ dai potenziali clienti. | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
+      background:yellow\">n/a o completare</span>] | n/a | [<span style=\"background:lightgreen\"\
+      >completare</span>] |\n| 3 | a. gestire il rapporto di lavoro, b. proteggere\
+      \ il funzionamento tecnico del nostro sistema informatico, c. adempiere ad obblighi\
+      \ di legge e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa\
+      \ l\u2019autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma\
+      \ aggregata ed anonima. | Dipendenti. | a. dati identificativi e di contatto,\
+      \ b. dati relativi all\u2019esecuzione del rapporto di lavoro (compresi i dati\
+      \ relativi allo stato di salute e l\u2019affiliazione sindacale), c. dati bancari.\
+      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
+      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | n/a | [<span style=\"background:lightgreen\">completare</span>]\
+      \ |\n| 4 | a. valutare la conclusione di un rapporto di lavoro, b. proteggere\
+      \ il funzionamento tecnico del nostro sistema informatico, c. adempiere ad obblighi\
+      \ di legge e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa\
+      \ l\u2019autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma\
+      \ aggregata ed anonima. | Potenziali dipendenti. | a. dati identificativi e\
+      \ di contatto, b. curriculum vitae | [<span style=\"background:yellow\">n/a\
+      \ o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ | [<span style=\"background:yellow\">n/a o completare</span>] | n/a | [<span\
+      \ style=\"background:lightgreen\">completare</span>] |\n| 5 | a. gestire la\
+      \ fornitura e i rapporti, b. proteggere il funzionamento tecnico del nostro\
+      \ sistema informatico, c. adempiere ad obblighi di legge e/o ottemperare ad\
+      \ ordini provenienti da pubbliche autorit\xE0, inclusa l\u2019autorit\xE0 giudiziaria,\
+      \ d. elaborare analisi statistiche in forma aggregata ed anonima. | Fornitori\
+      \ (compresi i dati delle persone fisiche che agiscono per loro conto). | a.\
+      \ dati identificativi e di contatto, b. dati sulle forniture realizzate, c.\
+      \ dati sulle tipologie di attivit\xE0 svolte dai fornitori, d. dati bancari.\
+      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
+      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | n/a | [<span style=\"background:lightgreen\">completare</span>]\
+      \ |\n| 6 | a. valutare se richiedere una fornitura, b. proteggere il funzionamento\
+      \ tecnico del nostro sistema informatico, c. adempiere ad obblighi di legge\
+      \ e/o ottemperare ad ordini provenienti da pubbliche autorit\xE0, inclusa l\u2019\
+      autorit\xE0 giudiziaria, d. elaborare analisi statistiche in forma aggregata\
+      \ ed anonima. | Potenziali fornitori (compresi i dati delle persone fisiche\
+      \ che agiscono per loro conto). | a. dati identificativi e di contatto, b. dati\
+      \ sulle tipologie di attivit\xE0 svolte dai potenziali fornitori. | [<span style=\"\
+      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ | n/a | [<span style=\"background:lightgreen\">completare</span>] |\n| 7 |\
+      \ #{k717dd16386cc}#{k6651eb0541c2}#{k199861bc076d}#{ka7fd4fde7ba3}\n\n\n####\
+      \ Parte B - Trattamenti in qualit\xE0 di Contitolare del Trattamento\n\n| N\xB0\
+      \ di Parte A cui si riferisce | Nome del Contitolare del Trattamento | Dati\
+      \ di contatto del Contitolare |\n| -------- | -------- | -------- |\n| [<span\
+      \ style=\"background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ |\n\n\n#### Parte C - Trattamenti in qualit\xE0 di Responsabile del Trattamento\n\
+      \n| N\xB0 | Nome e i dati contatto del Titolare (2.a.2) | Nome e dati contatto\
+      \ del Rappresentante *ex* art. 27 del Titolare del Trattamento (2.a.3) | Nome\
+      \ e dati contatto del RPD ex art. 37 del Titolare (2.a.4) | Categorie di trattamenti\
+      \ effettuati (2.b) | Paese terzo e/o Organizzazione Internazionale ed eventuali\
+      \ garanzie adeguate (2.c) | Misure di sicurezza *ex* art. 32.1 (2.d) |\n| --------\
+      \ | -------- | -------- | -------- | -------- | -------- | ---------- |\n| [<span\
+      \ style=\"background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ | [<span style=\"background:yellow\">n/a o completare</span>] | [<span style=\"\
+      background:yellow\">n/a o completare</span>] | [<span style=\"background:yellow\"\
+      >n/a o completare</span>] | [<span style=\"background:yellow\">n/a o completare</span>]\
+      \ | \n"
+    public: true
+    title: Registro Si Allegato
     visible: true
   kd4f2e84cccdc:
     _precondition: kba6efe5080df
